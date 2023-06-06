@@ -13,9 +13,6 @@ import java.io.IOException;
 @JsonTest
 public class BeerDtoSnakeTest extends BaseTest {
 
-    @Autowired
-    ObjectMapper objectMapper;
-
     @Test
     void testSnake() throws JsonProcessingException {
         BeerDto beerDto = getDto();
